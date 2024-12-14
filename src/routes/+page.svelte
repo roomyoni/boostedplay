@@ -1,8 +1,10 @@
-<script>
-    import Menu from "$lib/components/menu.svelte";
-    import GameMenu from "$lib/components/gameMenu.svelte";
-</script>
+<div class="home-container">
+  <h1>Welcome to BoostedPlay</h1>
+  <!-- Add your home page content here -->
+</div>
 
-<Menu />
-
-<GameMenu />
+<style>
+  .home-container {
+    padding: 1rem;
+  }
+</style>

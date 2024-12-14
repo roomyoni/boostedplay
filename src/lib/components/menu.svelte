@@ -1,8 +1,16 @@
+<script>
+import { goto } from '$app/navigation';
+</script>
+
 <section>
-  <div class="menu">
-    <img class="bplogo" src="./assets/hyena.svg" alt="BoostedPlay Logo" />
+  <a href="/" class="menu">
+    <img 
+      class="bplogo" 
+      src="./assets/hyena.svg" 
+      alt="BoostedPlay Logo" 
+    />
     <h1 class="brand-name">Boosted<span>Play</span></h1>
-  </div>
+  </a>
   
   <div class="balance-container">
     <div class="balance">
@@ -52,6 +60,11 @@
     display: flex;
     align-items: center;
     color: var(--text-primary);
+    cursor: pointer;
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    transition: all 0.2s ease;
+    text-decoration: none;
   }
 
   .bplogo {
