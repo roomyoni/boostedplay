@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Main Background Colors */
+  --background-color: rgb(22, 27, 45);
+  --background-lighter: rgb(24, 26, 39);
+  --background-darker: rgb(18, 21, 36);
+  --background-card: rgb(28, 32, 54);
+  --background-modal: rgb(30, 35, 53);
+  
+  /* Primary Brand Colors */
+  --primary: #843f64;
+  --primary-darker: #733656;
+  --primary-lighter: #954b73;
+  
+  /* Gradient Configurations */
+  --gradient-primary: linear-gradient(to right, var(--primary) 0%, var(--primary-darker) 100%);
+  --gradient-hover: linear-gradient(135deg, rgba(132, 63, 100, 0.2), rgba(115, 54, 86, 0.2));
+  --gradient-game-card: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.8) 100%);
+  --gradient-featured: linear-gradient(45deg, var(--primary-darker) 0%, var(--primary) 100%);
+  
+  /* UI Element Colors */
+  --button-background: var(--primary);
+  --button-hover: var(--primary-lighter);
+  --menu-item-active: rgba(132, 63, 100, 0.2);
+  --menu-item-hover: rgba(132, 63, 100, 0.1);
+  --input-background: rgba(255, 255, 255, 0.05);
+  --input-border: rgba(255, 255, 255, 0.1);
+  
+  /* Border Colors */
+  --border-light: rgba(255, 255, 255, 0.05);
+  --border-accent: rgba(132, 63, 100, 0.3);
+  --border-game-card: rgba(255, 255, 255, 0.08);
+  --border-divider: rgba(255, 255, 255, 0.04);
+  
+  /* Text Colors */
+  --text-primary: rgb(235, 235, 235);
+  --text-secondary: #a5a5a5;
+  --text-accent: #ffffff;
+  --text-muted: #666666;
+  --text-highlight: #b35c86;
+  
+  /* Shadow Effects */
+  --shadow-soft: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-strong: 0 10px 15px -3px rgba(0, 0, 0, 0.2), 0 4px 6px -2px rgba(0, 0, 0, 0.1);
+  --shadow-game-card: 0 8px 16px rgba(0, 0, 0, 0.4);
+  --shadow-hover: 0 0 15px rgba(132, 63, 100, 0.4);
+  
+  /* Overlay Colors */
+  --overlay-dark: rgba(0, 0, 0, 0.5);
+  --overlay-light: rgba(255, 255, 255, 0.05);
+  --overlay-game: rgba(0, 0, 0, 0.4);
+  --overlay-modal: rgba(0, 0, 0, 0.8);
+  
+  /* Status Colors */
+  --success: #2e7d32;
+  --error: #d32f2f;
+  --warning: #ed6c02;
+  --info: #0288d1;
+  
+  /* Game-specific Colors */
+  --win: #00c853;
+  --loss: #ff1744;
+  --multiplier: #ffab00;
+  --jackpot: #ffd700;
+  --bonus: #aa00ff;
+  --featured: #ff9100;
+  
+  /* Cryptocurrency Colors */
+  --crypto-btc: #f7931a;
+  --crypto-eth: #627eea;
+  --crypto-usdt: #26a17b;
+  --crypto-ltc: #345d9d;
+  
+  /* Game Category Colors */
+  --category-slots: #ff6b6b;
+  --category-live: #5c7cfa;
+  --category-table: #20c997;
+  --category-casual: #ff922b;
+  --category-sports: #51cf66;
+  
+  /* VIP Level Colors */
+  --vip-bronze: #cd7f32;
+  --vip-silver: #c0c0c0;
+  --vip-gold: #ffd700;
+  --vip-platinum: #e5e4e2;
+  --vip-diamond: #b9f2ff;
+}
